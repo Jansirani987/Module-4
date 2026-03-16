@@ -1,3 +1,4 @@
+
 # 🔤 Dictionary-Python Program to Sort a Dictionary by Keys and Values
 
 This Python program demonstrates how to sort a dictionary:
@@ -12,23 +13,17 @@ To write a Python program that sorts a dictionary's:
 - Keys in alphabetical order
 - Values in alphabetical order
 
----
+
 
 ## 🧠 Algorithm
-
-1. **Start the program.**
-2. **Define** a dictionary with key-value pairs.
-3. **Sort by Keys**:
-   - Use `sorted(dictionary.items())`
-   - Convert the result to a dictionary using `dict()`
-4. **Sort by Values**:
-   - Use `sorted(dictionary.items(), key=lambda item: item[1])`
-   - Convert the result to a dictionary using `dict()`
-5. **Display** the original and sorted dictionaries.
-6. **End the program.**
-
----
-
+```
+1.Start the program.
+2.Create an empty dictionary and add key-value pairs.
+3.Sort the dictionary items by their values using sorted() with a lambda function.
+4.Store the sorted result in a variable.
+5.Print a message and the sorted key-value pairs.
+6.End the program.
+```
 ## 🧪Program
 ```
 def dictionairy():  
@@ -45,12 +40,10 @@ def dictionairy():
  
 def main():
     dictionairy()
-
+           
 ```
 ## Sample Output
-
-<img width="1079" height="185" alt="Screenshot (962)" src="https://github.com/user-attachments/assets/a5ff684f-75e5-4eeb-89f6-4bf35ae5a101" />
+![image](https://github.com/user-attachments/assets/f19f2bd9-a6f6-4aa4-a418-0d570459faa2)
 
 ## Result
-
 The program successfully sorts the dictionary by its keys and values in alphabetical order and prints both sorted versions along with the original dictionary.
