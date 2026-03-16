@@ -1,16 +1,15 @@
-## Dictionary Operations in Python: Merging Two Dictionaries
 
+## Dictionary Operations in Python: Merging Two Dictionaries
 ## 🎯 Aim
-To write a Python program that merges **two dictionaries** and combines their key-value pairs.
+To write a Python program that merges *two dictionaries* and combines their key-value pairs.
 
 ## 🧠 Algorithm
-1. Define two dictionaries `dict1` and `dict2` with some key-value pairs.
-2. Define a function `merge()` that merges the two dictionaries using the `**` unpacking operator.
-   - The merged result will combine keys from both dictionaries. If a key exists in both, the value from `dict2` will overwrite that from `dict1`.
-3. Call the `merge()` function and print the merged dictionary.
+1. Define two dictionaries dict1 and dict2 with some key-value pairs.
+2. Define a function merge() that merges the two dictionaries using the ** unpacking operator.
+   - The merged result will combine keys from both dictionaries. If a key exists in both, the value from dict2 will overwrite that from dict1.
+3. Call the merge() function and print the merged dictionary.
 
 ## 🧾 Program
-
 ```
 dict1={'Ten': 10,'Twenty': 20,'Thirty': 30} 
 dict2={'Thirty': 30,'Fourty': 40,'Fifty': 50}
@@ -21,10 +20,7 @@ dict3=merge(dict1,dict2)
 print(dict3)
 ```
 ## Output
-
-<img width="723" height="144" alt="Screenshot (961)" src="https://github.com/user-attachments/assets/60833ae7-ed10-42b4-8581-8312b551a8ab" />
+![Screenshot (145)](https://github.com/user-attachments/assets/e8333efb-3f5c-488e-bca7-cb30b9252da2)
 
 ## Result
-
-Thus,the program has been executed successfully.
-
+thus,the program has been executed successfully.
