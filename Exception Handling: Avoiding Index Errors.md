@@ -4,6 +4,7 @@
 To write a Python program that handles an **IndexError** when trying to access an element beyond the available range of a list.
 
 ## 🧠 Algorithm
+
 1. Define a list `list1` with some integer elements.
 2. Use a **try-except** block:
    - In the `try` block, attempt to access an index that is out of range (e.g., `list1[5]`).
@@ -19,10 +20,11 @@ except:
     print("You're out of list range")
 
 ```
+
 ## Output
 
-<img width="722" height="193" alt="Screenshot (964)" src="https://github.com/user-attachments/assets/16a558bf-a8e9-44aa-bdfa-5a6bf88299bc" />
+![image](https://github.com/user-attachments/assets/8c4d79a2-1777-48d6-be3c-d7ce544baf1c)
+
 
 ## Result
-
-Thus th program that handles an IndexError when trying to access an element beyond the available range of a list has been executed successfully.
+Thus th program  that handles an **IndexError** when trying to access an element beyond the available range of a list has been executed successfully.
